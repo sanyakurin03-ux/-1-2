@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b54bce57-1234-465c-ba1d-49d161d43ba3">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c94f6791-7d81-4668-9d15-f52a78ffd819"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="02f809e3-233f-495d-a405-a984b9f3f77d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="fa687610-750f-4e39-8618-be2993b8cb24"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="568cc4af-8dc8-44a9-9af9-334ea1be438a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="00b2dd18-f7d2-471d-99a6-a28c8a4d8892"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="dc8eeed3-18da-40b7-b05c-b73f9fabee08"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9dec5d8b-5d8f-4151-991f-ed26b1b5a16e"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="66764ada-579f-417a-8d5b-d95439ff6e07">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.ВидыОвощей</catalogs>
+  <catalogs>Catalog.Огород</catalogs>
+  <documents>Document.СборУрожая</documents>
+  <documents>Document.ПосевОвощей</documents>
+  <documents>Document.ПоливИПодкормка</documents>
+  <reports>Report.ИтоговаяУрожайность</reports>
+  <informationRegisters>InformationRegister.Урожайность</informationRegisters>
+</mdclass:Configuration>

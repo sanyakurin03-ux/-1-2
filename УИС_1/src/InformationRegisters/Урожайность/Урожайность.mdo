@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb399f7b-f6e7-4412-b946-f725a359c146">
+  <producedTypes>
+    <selectionType typeId="3f26b820-b07a-4b99-b73b-c51c3f80356a" valueTypeId="e2a32aa9-a719-4a3b-8920-26841a30606e"/>
+    <listType typeId="63bad69d-56fd-46d2-a627-b01020fc696f" valueTypeId="37c17d73-9768-427d-880a-f6034f0a57ec"/>
+    <managerType typeId="d3c548b4-38e8-42e5-a37b-3b8f403d9bfc" valueTypeId="8e52f292-af10-4d1d-ab67-924fc706beca"/>
+    <recordSetType typeId="9c656f0e-f93c-42cd-aade-100e446271f1" valueTypeId="cc041dad-5be5-4f0d-8fb3-f545c17ae326"/>
+    <recordKeyType typeId="7fdcb9ad-1d6d-4be8-b10f-4dc18591c341" valueTypeId="febac61e-92e1-4ea4-830d-8b7eaf919e53"/>
+    <recordType typeId="f450f7fe-2cf2-4d64-a600-438469de6681" valueTypeId="880acb6d-50b3-4769-bf8d-8961e2201961"/>
+    <recordManagerType typeId="b8282fb7-0a01-47d1-91f3-b3215c698f61" valueTypeId="be8e77b4-9ddd-48fd-b74d-6e1c399a1a2d"/>
+  </producedTypes>
+  <name>Урожайность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Урожайность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3894a2ec-d4db-471d-a4ce-165377a2fe06">
+    <name>СредняяУрожайность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Урожайность, тонн/гк</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d9d5b642-d80f-4fb6-8672-00b3a1421aac">
+    <name>Культура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Культура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОвощей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6ec458b-4946-4931-83ef-b0117b8d8765">
+    <name>Участок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Огород</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

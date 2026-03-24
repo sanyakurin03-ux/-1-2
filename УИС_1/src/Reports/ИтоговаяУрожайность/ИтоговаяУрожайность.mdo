@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed7b8edb-777b-454a-982e-227d3025e1e8">
+  <producedTypes>
+    <objectType typeId="55eeafe0-aca2-42fa-a621-b2e7799f8994" valueTypeId="c33eb57e-b64c-4297-af2c-b3abf21f9667"/>
+    <managerType typeId="2e91db29-005e-431c-902a-10346bc28fca" valueTypeId="197d32d0-6605-46b4-a818-35251d28fc72"/>
+  </producedTypes>
+  <name>ИтоговаяУрожайность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Итоговая урожайность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИтоговаяУрожайность.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5fd90fe0-4fa7-42a2-ae36-7a2763b34d58">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
